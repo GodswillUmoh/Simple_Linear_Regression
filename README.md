@@ -50,6 +50,56 @@ plt.show()
 ```
 
 ## Ordinary Least Squares Regression
+> ```python
+> Ordinary Least Squares (OLS) Regression is a fundamental method for estimating the parameters of a linear regression model.
+> It minimizes the sum of the squared differences (residuals) between the observed dependent variable and the predicted values 
+> ```
+### How do we know which of the slope line is the best. Which one fit better, this is the reason for OLS.
+_The general form of a linear regression equation is:_
+$y=β 
+0
+​
+ +β 
+1
+​
+ x 
+1
+​
+ +β 
+2
+​
+ x 
+2
+​
+ +…+β 
+p
+​
+ x 
+p
+​
+ +ϵ$
+ + y: Dependent Variable
+ + xi : Independent Variables
+ + βi : Regression coefficients
+ + ϵ: Error term (residual)
+ __OLS Objective__
+> The goal of OLS is to minimize the sum of squared residuals:
+### Formula: 
+$SSE= 
+i=1
+∑
+n(yi − y^i)2$
+
+Where:
++ 𝑦𝑖: Observed values
++ y^i : Predicted values $(𝑦^𝑖 (predValue) =𝛽0+𝛽1𝑥𝑖)$
+
+​## Summary
+> In summary, Ordinary Least Squares (OLS) regression is obtained by solving for the coefficients (𝛽) that minimize the sum of squared errors (SSE) between the observed values (𝑦) and the predicted values (𝑦^) of the model.
+>
+> The coefficients (𝛽) describe the linear relationship between the independent variables (𝑋) and the dependent variable (𝑦).
+
+
 
 
 
